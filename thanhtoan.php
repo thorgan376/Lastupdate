@@ -1,6 +1,6 @@
 <?php
 	@session_start();
-	include('admincp/modules/config.php');
+	include('admin/modules/config.php');
 		$cus_id=$_SESSION['customer_id'];	
 		$insert_cart="insert into cart (customer_id) value ('".$cus_id."')";
 		$ketqua=mysqli_query($conn, $insert_cart);

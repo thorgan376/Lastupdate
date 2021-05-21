@@ -20,7 +20,7 @@
 <body>
     	<?php
 		session_start();
-			include('admincp/modules/config.php');
+			include('admin/modules/config.php');
 			include('modules/header.php');
 			include('modules/menu.php');
 			include('modules/content.php');

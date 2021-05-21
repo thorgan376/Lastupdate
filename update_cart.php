@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include('admincp/modules/config.php');
+	include('admin/modules/config.php');
 	//
 	if(isset($_GET['thoat'])&&$_GET['thoat']==1){
 		unset($_SESSION['dangnhap']);
