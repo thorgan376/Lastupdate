@@ -28,14 +28,14 @@
 			echo'<td><img src="'.$dong['image'].'" width="150" height="150" /></td>';
 			echo'<td>'.number_format($dong['price']).'</td>';
 			
-			echo'<td><a href="update_cart.php?cong='.$cart_item['id'].'" style="margin-right:2px;"><img src="imgs/plus.png" 
+			echo'<td><a href="update_cart.php?cong='.$cart_item['id'].'" style="margin-right:2px;"><img src="image/plus.png" 
 			width="20" height="20"></a>'.$cart_item['soluong'].'<a href="update_cart.php?tru='.$cart_item['id'].'" 
-			style="margin-left:2px;"><img src="imgs/subtract.png" width="20" height="20"></a></td>';
+			style="margin-left:2px;"><img src="image/subtract.png" width="20" height="20"></a></td>';
 			$tongtien=0;
 			$tongtien=$cart_item['soluong']*$cart_item['gia'];
 			$thanhtien=($thanhtien + $tongtien);
 			echo'<td>'.number_format($tongtien).'</td>';
-			echo'<td><a href="update_cart.php?xoa='.$cart_item['id'].'"><img src="imgs/deletered.png" width="30" height="30"></a></td>';
+			echo'<td><a href="update_cart.php?xoa='.$cart_item['id'].'"><img src="image/deletered.png" width="30" height="30"></a></td>';
 			echo'</tr>';
 			echo '<tr>';
 			echo'</tr>';
@@ -70,7 +70,8 @@
                 <?php
 				if(isset($_SESSION['dangnhap'])&&isset($_SESSION['product'])){
 				?>
-                 <p style="float:right; background:#FF0;text-decoration:none;"><a href="thanhtoan.php" style="color:#000;margin:5px;">Thanh toán</a></p>
+                 <div style="float:right; background:#28a746;text-decoration:none; padding: 10px; border-radius: 15px;
+				 margin-bottom: 10px"><a href="thanhtoan.php" style="color:#fff;margin:5px;text-decoration:none">Thanh toán</a></div>
 				<?php
 				}
 				?>

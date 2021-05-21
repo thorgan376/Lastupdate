@@ -31,7 +31,7 @@
 
 <div class="dangky">
 <div class="imgcontainer">
-    <img src="./image/pencil.png" alt="Avatar" class="avatar">
+    <img src="./image/pencil-register.png" alt="Avatar" class="avatar">
   </div>
   <form action="" method="post" enctype="multipart/form-data">
 	<table width="100%" style="border-collapse:collapse;">

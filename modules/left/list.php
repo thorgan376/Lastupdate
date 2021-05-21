@@ -69,7 +69,7 @@
 				while($dong_tin=mysqli_fetch_array($sql)){
 				?>
                 	<li><a href="#">
-                    	<p style="float:left;"><img src="admincp/modules/quanlytintuc/uploads/<?php echo $dong_tin['news_image'] ?>" width="40" height="30" /></p>
+                    	<p style="float:left;"><img src="admin/modules/quanlytintuc/uploads/<?php echo $dong_tin['news_image'] ?>" width="40" height="30" /></p>
                         <p style="overflow:hidden;padding-left:5px;"><?php echo $dong_tin['news_title'] ?></p>
                     </a></li>
                     <?php

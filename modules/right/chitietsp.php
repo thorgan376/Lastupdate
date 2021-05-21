@@ -7,7 +7,7 @@
    
                 	<div class="box_chitietsp">
                     	<div class="box_hinhanh">
-                        	<img src="<?php echo $dong['image'] ?>" data-zoom-image="imgs/op-lung-sony-z3-pelosi-50.jpg"  width="200" height="200" />
+                        	<img src="<?php echo $dong['image'] ?>" data-zoom-image="image/op-lung-sony-z3-pelosi-50.jpg"  width="200" height="200" />
                             <?php
                             $sql_gallery=mysqli_query($conn, 'select * from gallery where id_sp="$_GET[id]" limit 3');							
 							$row_gallery=mysqli_num_rows($sql_gallery);
