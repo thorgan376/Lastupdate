@@ -1,0 +1,411 @@
+/* CSS Document */
+
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.clear{
+	clear:both;
+}
+
+.content{
+	width:100%;
+	height:auto;
+	
+	margin-top:2px;
+}
+.content_left{
+	width:28%;
+	height:auto;
+	border:1px solid #D9D9D9;
+	float:left;
+	margin-top:2px;
+}
+.hangbanchay {
+	width:100%;
+	height:auto;
+	
+	text-align:center;
+	list-style:none;
+	
+}
+.hangbanchay li{
+	width:100%;
+	height:auto;
+	border-bottom:1px solid rgb(192, 191, 191);
+	margin:auto;
+	
+}
+.hangbanchay li:hover{
+	background:#F2F2F2;
+	
+}
+.hangbanchay a{
+	text-decoration:none;
+	display:block;
+}
+.hangbanchay p{
+	padding:5px;
+	color:black;
+	font-weight:bold;
+}
+.hangbanchay p:hover{
+	color:#b03134;
+}
+.tintucsp{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.tintucsp li{
+	width:auto;
+	height:auto;
+	padding:10px;
+	border-bottom:1px dashed #CCC;
+	
+}
+.tintucsp a{
+	text-decoration:none;
+	color:#000;
+	font-size:18px;
+}
+.tintucsp li:hover, .tintucsp li>a:hover {
+	background:#F2F2F2;
+	color: #b03134;
+}
+
+.tieude{
+	width:auto;
+	height:58px;
+	background:rgb(254, 209, 1);
+	font-size:25px;
+	text-align:center;
+	padding:5px;
+	color:#fff;
+	line-height:50px;
+}
+.box_list{
+	width:98%;
+	height:auto;
+	
+	margin:2px;
+	
+}
+.list{
+	width:100%;
+	height:100%;
+	list-style:none;
+}
+.list li{
+	width:auto;
+	height:30px;
+	padding-left:10px;
+	padding-top:5px;
+	background:#F2F2F2;
+	
+}
+.list li a{
+	text-decoration:none;
+	color:#000;
+	display:block;
+}
+.list li:hover, .list li>a:hover{
+	background:#b03134;
+	color: white;
+}
+.content_right{
+	width:71%;
+	height:auto;
+	border:1px solid #D9D9D9;
+	float:right;
+	margin-top:2px;
+}
+.box_product{
+	width:98%;
+	height:auto;
+	
+	margin:auto;
+	
+}
+.product{
+	list-style:none;
+	width:98%;
+	height:auto;
+	margin:auto;
+}
+.product li{
+	width:217px;
+	height:300px;
+	text-align:center;
+	padding-top:5px;
+	float:left;
+	margin:5px;
+	
+}
+.product a{
+	text-decoration:none;
+}
+.product li:hover{
+	background:#F2F2F2;
+}
+.product p{
+	padding-top:1px;
+	color:#000;
+	font-size:18px;
+}
+
+/* chi tiet san pham*/
+.box_chitietsp{
+	width:98%;
+	height:300px;
+	
+	margin:2px;
+	
+}
+.box_hinhanh{
+	width:35%;
+	height:300px;
+	
+	float:left;
+}
+.hinhanhphongto{
+	width:100%;
+	height:100px;
+	list-style:none;
+}
+.hinhanhphongto li{
+	width:70px;
+	height:70px;
+	float:left;
+	margin-left:5px;
+	border:1px solid #CCC;
+}
+
+
+.box_info{
+	width:64%;
+	height:300px;
+	border-left:1px solid #000;
+	float:right;
+	padding-left:5px;
+}
+.box_info p{
+	margin:10px;
+}
+.box_detail{
+	width:100%;
+	height:400px;
+	
+	
+	
+}
+.button_dathang{
+	width:200px;
+	height:40px;
+	border:1px solid #000;
+	border-radius:25px;
+	margin:10px;
+	margin-top:40px;
+	
+}
+.button_dathang p{
+	font-size:20px;
+	font-weight:bold;
+	
+	text-align:center;
+	line-height:40px;
+	
+	
+}
+.button_dathang  a{
+	color:#0C9;
+	text-decoration:none;
+	display:block;
+}
+.button_dathang:hover{
+	background:#1d1d1b;
+}
+.sanphamlienquan{
+	width:100%;
+	height:250px;
+	
+}
+.sanphamlienquan ul {
+	width:auto;
+	list-style:none;
+	height:auto;
+}
+.sanphamlienquan ul li{
+	width:215px;
+	height:auto;
+	
+	text-align:center;
+	margin:8px;
+	float:left;
+}
+.sanphamlienquan a{
+	text-decoration:none;
+	color:skyblue;
+}
+.hinhanhsp{
+	width:100%;
+	height:auto;
+	margin:auto;
+	list-style:none;
+}
+.hinhanhsp img{
+	width:600px;
+	margin-top:10px;
+}
+.hinhanhsp li{
+	text-align:center;
+}
+/*Gio hang*/
+.box_giohang{
+	width:98%;
+	height:auto;
+	margin:2px;
+}
+.tablecss{
+	width:100%; 
+	border:1px; 
+	border-collapse: collapse; 
+	margin:5px; 
+	text-align:center;
+}
+.tablecss td, .tablecss th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  .tablecss tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tablecss tr:hover {background-color: #ddd;}
+  
+  .tablecss th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #ff9900;
+	color: seashell;
+  }
+.button_capnhapgiohang{
+	width:150px;
+	height:40px;
+	line-height:40px;
+	border:1px solid #000;
+	border-radius:25px;
+	margin:5px;
+	float:right;
+}
+.button_capnhapgiohang:hover{
+	background:#0C3;
+}
+.button_capnhapgiohang a{
+	display:block;
+	color:red;
+	font-size:18px;
+	text-decoration:none;
+}
+.control p{
+	font-size:18px;
+	color:skyblue;
+	float:left;
+	color:blue;
+	text-decoration:none;
+	padding: 20px;
+	margin-left: 2%;
+}
+.control a{
+	text-decoration:none;
+}
+.control a:hover{
+	text-decoration:underline;
+	
+}
+/*Dang ky*/
+.thongbao{
+	width:100%;
+	height:200px;
+	border:1px solid #D9D9D9;
+}
+.thongbao p{
+	font-size:22px;
+	color:red;
+	margin:2px;
+}
+.dangky tr td{
+	padding:5px;
+}
+.dangky input{
+	width:100%;
+	height:20px;
+}
+.ghichu textarea{
+	width:100%;
+	height:60px;
+}
+.ghichu p{
+	margin:5px;
+}
+.imgcontainer {
+	text-align: center;
+  	margin: 24px 0 12px 0;
+}
+img.avatar {
+	width: 20%;
+	border-radius: 50%;
+  }
+.button_gui{
+	width:100px;
+	height:100px;
+	border:1px solid #000;
+	border:25px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 16px 10px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.button-submit {
+	background-color: #04AA6D;
+	color: white;
+	padding: 15px 100px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+.tabs_panel ul{
+	list-style-type:none;
+}
+.tabs_panel .tabs li	{
+	list-style-type:none;
+	display:inline-block;
+	padding:10px 20px;
+	background:#4285f4;
+	border-radius:10px 10px 0 0;
+	color:#fff;
+	font-weight:200;
+	cursor:pointer;
+}
+.tabs_panel ul li.active{
+	color:#fff;
+	background:#ea4335;
+}
+.tabs_panel .panel{
+	display:none;
+	background:#fff;
+	color:#000;
+	padding:30px;
+}
+.tabs_panel .panel.active{
+	display:block;
+}
+.scroll-to-top{
+	display: fixed;
+}
