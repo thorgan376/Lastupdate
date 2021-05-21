@@ -1,0 +1,30 @@
+.productchoosebutton{
+    border: none;
+    background-color: white;
+    width: 100%;
+    line-height: 0;
+    opacity: 0.87;
+    transition: 0.3s;
+}
+.productchoosebutton:hover{
+    opacity: 1;
+}
+.imageproductbutton{
+   margin-left: -1000px;
+}
+.productnamesearch{
+    font-size: 27px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 35px;
+    color: white;
+}
+.productpricesearch{
+    font-size: 27px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 35px;
+    color: white;
+}

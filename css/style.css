@@ -1,0 +1,394 @@
+.navbar{
+    background-color: black !important;
+  }
+  *{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+    .contact{
+      font-size: 15px;
+      padding-left: 10px;
+      margin-bottom: 0px;
+    }
+    body{
+      background-color: white;
+  }/*
+    .navbar-nav{
+
+    }*/
+    .taskbar{
+      color: white;
+      font-size: 18px;
+    }
+    .taskbar:hover{
+      background-color: black !important;
+      color: white;
+    }
+    .taskbar:focus{
+      background-color: rgb(254,209,1) !important;
+      color: white !important;
+    }
+    .slide-content{
+      margin-left: 15px;
+    }
+    #backgroundimg{
+      background-size: 52% !important;
+      background-repeat: no-repeat !important;
+    }
+    .tittle{
+      position: relative;
+      line-height: 200px;
+      font-size: 35px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-family: Garamond;
+      color: white;
+      text-align: center;
+    }
+    .tittletop{
+      position: relative;
+    
+      font-size: 35px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-family: Garamond;
+      margin-top: 10px !important;
+      color: white;
+      text-align: center;
+    }
+    .productdiv{
+      margin-top: -40px;
+    }
+    .productdivtop{
+      margin-top: 55px;
+    }
+    .overwirte{
+      height: 1100px;
+    }
+    #backgroundimgproduct{
+      background-size: 110% !important;
+      background-repeat: no-repeat !important;
+    }
+    .divfix{
+      height: 480px;
+      margin-top: 60px !important;
+    }
+    .divfixtop{
+      height: 480px;
+      margin-top: 60px !important;
+    }
+    .footer-top-area{
+      height: 350px;
+    }
+    .footer-top-area {
+      background: none repeat scroll 0 0 #333;
+      color: #999;
+      padding: 35px 0 190px;
+      }
+  .footer-about-us span {
+      color: rgb(254, 209, 1);
+  }
+  .footer-about-us h2 {
+      font-weight: 200;
+    }
+  
+  .footer-menu ul {
+      list-style: outside none none;
+      margin: 0;
+      padding: 0;
+      cursor: context-menu;
+    }
+    .footer-menu {
+      display: block;
+      padding: 5px 0;color: rgb(153, 153, 153);
+  }
+  .footer-wid-title {
+      font-family: raleway;
+      font-size: 30px;
+      font-weight: 100;
+      color: white;
+      cursor: context-menu;
+    }
+    .footer-bottom-area {background: black;color: white}
+.footer-bottom-area {
+    background: none repeat scroll 0 0 black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-card-icon {
+    font-size: 30px;
+    text-align: right;
+    cursor: context-menu;
+  }
+.subscribebox{
+  width: 240px;
+  margin-left: 880px;
+  cursor: context-menu;
+  position: absolute;
+}
+.subheader{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  cursor: context-menu;
+}
+.footeraboutus{
+  margin-top: 4.52px;
+  cursor: context-menu;
+}
+.copyright{
+  cursor: context-menu;
+  padding-top: 10px;
+}
+.search-box{
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+/* .navbar-nav {
+  padding-left: 105px
+} */
+
+.slide-bg {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;background-position: center;background-size: cover
+    }
+.slide-bg:after {
+      background: none repeat scroll 0 0 rgb(0, 0, 0);
+      content: "";
+      height: 100%;
+      left: 0;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+.slide-text {color: #fff;font-size: 18px;font-weight: 200}
+.slide-text h2 {
+      font-size: 45px;font-weight: 200
+    }
+.slide-text-wrapper {
+      display: table;width: 100%;
+    }
+.slide-text {display: table-cell;vertical-align: middle}      
+.readmore {
+  background: none repeat scroll 0 0 rgb(254,209,1);
+  color: #fff;
+  border: 1px solid rgb(254,209,1);
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+.productimg{
+  width: 168px;
+  padding-top: 6px;
+}
+.productimginfo{
+width: 280px;
+}
+.productdivinfo{
+position: absolute;
+margin-top: 70px;
+display: inline-block;
+}
+.productnameinfo{
+width: 2000px;
+font-size: 27px;
+display: inline-block;
+position: absolute;
+margin-left: 16px;
+}
+.productpriceinfo{
+position: absolute;
+margin-top: 250px;
+display: inline-block;
+width: 500px;
+margin-left: 20px;
+font-size: 25px;
+}
+.productintro{
+position: absolute;
+margin-top: 700px;
+margin-left: -595px;
+font-size: 30px;
+}
+.productintrotext{
+position: absolute;
+margin-top: 750px;
+margin-left: -595px;
+font-size: 20px;
+}
+.product{
+  border: none;
+  background-color: rgb(254,209,1);
+  color: white;
+  line-height: 40px;
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.productname{
+  color: white;
+  font-size: 20px;
+  margin-left: 57px;
+  border: 0px;
+  background-color: black;
+}
+.productnamefirst{
+  margin-left: -16px !important;
+}
+.productsection{
+  margin-top: 100px;
+}
+.productsectiontop{
+  margin-top: 100px !important;
+}
+#feature{
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 360px;
+  font-size: 24px;
+}
+.buttonleaddiv{
+  margin-top: 24px;
+  width: 200px !important;
+  margin-left: 950px !important;
+  height: 50px;
+}
+.buttonlead{
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 3px;
+}
+.buttonlead:focus{
+  text-decoration: none;
+  color: white;
+}
+.buttonlead:hover{
+  text-decoration: none;
+  color: white;
+}
+.downloadword{
+  background-color: rgb(0,159,255);
+  border:none;
+  padding: 10px 25px;
+  border-radius: 3.5%;
+  color: white;
+  margin-left: 25px;
+}
+.downloadpdf{
+  background-color: rgb(255,0,0);
+  border:none;
+  padding: 10px 28px;
+  border-radius: 3.5%;
+  color: white;
+  margin-left: 25px;
+}
+.divword{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.divpdf{
+  margin-top: 35px;
+  margin-left: 30px;
+}
+.downloadword:hover{
+  color: white;
+  text-decoration: none;
+}
+.downloadpdf:hover{
+  color: white;
+  text-decoration: none;
+}
+.downloadword:focus{
+  color: white;
+  text-decoration: none;
+}.downloadpdf:focus{
+  color: white;
+  text-decoration: none;
+}
+.downloadhere{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  cursor: context-menu;
+  margin-top: 26px;
+  display: inline-block;
+  margin-left: -26.5px !important;
+}
+ .mainmenu-area {
+    background: none repeat scroll 0 0 rgb(254, 209, 1);
+    font-family: "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 999;
+}
+.mainmenu-area ul.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px;
+}
+.mainmenu-area ul.navbar-nav li:hover a{background: black}
+/* ////////////////////////////////////////iahidiaibinaibibdi */
+.mainmenu-area ul.navbar-nav li.active a{background: black}
+.middle-area {padding-bottom: 170px;}
+/* ////////////////////////////////////////kaidfhianuiagfianf */
+.contact-area, .introduction-area {padding-bottom: 100px}
+
+.product-big-title-area {background: repeat scroll 0 0 rgb(77, 77, 77)}
+.product-big-title h2 {
+  font-family: raleway;
+  font-size: 50px;
+  font-weight: 200;
+  margin: 0;
+  padding: 50px 0;color: #fff;
+}
+.contact-form, .contact-info {margin-top: 20px;}
+.title {color: rgb(254, 209, 1);}
+/*siudvhsbduvwibiwg 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover {background-color: black;}
+
+.navbar-nav>li:hover>ul.sub-menu {
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+} */

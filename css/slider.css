@@ -1,0 +1,86 @@
+.slider-area {clear: both}
+.slider-area, .promo-area, .brands-area, .introduction-area, .maincontent-area, .footer-top-area, .product-widget-area, .product-breadcroumb-area, .single-product-area {position: relative;overflow: hidden}
+.slide-text-wrapper {
+  height: 700px;
+}
+.carousel.carousel-fade .item { transition: opacity 1s ease-in-out }
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.slide-bulletz {
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+ol.slide-indicators {
+    left: inherit;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    }
+    ol.slide-indicators li {
+    background: none repeat scroll 0 0 #222;
+    border: medium none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 0 0 5px;
+    width: 10px;
+    }
+    ol.slide-indicators li.active {
+    background: none repeat scroll 0 0 #fff;
+    height: 10px;
+    margin: 0 0 0 5px;
+    width: 10px;
+    }
+    .slide-bg {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;background-position: center;background-size: cover
+      }
+      .slide-bg:after {
+        background: none repeat scroll 0 0 #000;
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+.slide-text {color: #fff;font-size: 18px;font-weight: 200}
+.slide-text h2 {
+  font-size: 45px;font-weight: 200
+}
+
+.slide-content {position: relative;z-index: 9;padding: 30px}
+.slide-content:before {
+  background: none repeat scroll 0 0 #000;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.slide-text-wrapper {
+    height: 700px;
+  }
+  .slide-text-wrapper {
+    display: table;width: 100%;
+  }
+  .slide-text {display: table-cell;vertical-align: middle}
